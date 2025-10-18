@@ -38,21 +38,21 @@ Built with **Node.js**, **Express**, and **MongoDB**, this project allows users 
    ```bash
    git clone https://github.com/itsharpal/expense-tracker-apis.git
 
-	2.	Install dependencies
+2.	Install dependencies
 
-npm install
-
-
-	3.	Create .env file in the root directory and add:
-
-MONGO_URI=your_mongodb_connection_string
-SECRET_KEY=your_secret_key
-PORT=5000
+    npm install
 
 
-	4.	Start the server
+3.	Create .env file in the root directory and add:
 
-npm start
+    MONGO_URI=your_mongodb_connection_string
+    SECRET_KEY=your_secret_key
+    PORT=5000
+
+
+4.	Start the server
+
+    npm start
 
 The server will run on http://localhost:5000.
 
